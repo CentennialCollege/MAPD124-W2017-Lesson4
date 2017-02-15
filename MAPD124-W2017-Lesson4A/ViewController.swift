@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource{
     override func viewDidLoad() {
         super.viewDidLoad()
         currentTask = Task(name: "empty Task", completed: false, note: "currentlty empty")
+        
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
